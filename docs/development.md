@@ -34,6 +34,7 @@ This will automatically save the dependencies to the `vendor/` directory.
 
 ```console
 $ cd $GOPATH/src/ingress-nginx
+$ dep init
 $ dep ensure
 $ dep ensure -update
 $ dep prune
